@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "799887685205",
+    "firebase_url": "https://myruns-976ee.firebaseio.com",
+    "project_id": "myruns-976ee",
+    "storage_bucket": "myruns-976ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799887685205:android:5e0635fee655d50d",
+        "android_client_info": {
+          "package_name": "edu.dartmouth.cs.myrun5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799887685205-mfp8hsge1ekug40u6i51lb6ulpi85t3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlYVz5T_38cqtUpNp7_ABuAD7ilmd5Ibs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

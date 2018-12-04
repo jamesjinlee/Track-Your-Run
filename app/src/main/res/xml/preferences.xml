@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/application_settings">
+
+        <SwitchPreference
+            android:key="Privacy Settings"
+            android:summary="@string/summary_privacy_settings"
+            android:title="@string/privacy_settings" />
+        <ListPreference
+            android:key = "Unit Preference"
+            android:title="@string/unit_preference"
+            android:summary="@string/summary_unit_preference"
+            android:entries= "@array/unit_preference"
+            android:entryValues="@array/values_unit_preference"
+            android:dialogTitle="@string/unit_preference"/>
+
+
+        <PreferenceScreen
+            android:key = "@string/webpage"
+            android:title="@string/webpage"
+            android:summary="@string/summary_webpage">
+            <intent android:action="android.intent.action.VIEW"
+            android:data="http://cs.dartmouth.edu/~campbell/cs65/cs65.html" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title = "@string/account_settings"
+        >
+        <PreferenceScreen
+            android:title="@string/sign_out"
+            android:key="@string/sign_out_key_btn">
+
+        </PreferenceScreen>
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
