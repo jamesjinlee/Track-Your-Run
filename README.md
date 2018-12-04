@@ -1,3 +1,6 @@
+# Track Your Runs
+Android application that utilizes Google Maps API to track runs and provide detailed information on your runs. This application also includes a social board that allows users to retrieve all entries from their friends.
+
 ## 1st Implementation
 The beginning creation of a simple app in which a user can register with his/her name, email, password, major, phone-number, and dartmouth class and sign in to enter a MainActivity page. The user can also take a profile picture that is cropped while registering.
 
